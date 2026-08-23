@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://mini-dmart-backend-m46k.onrender.com",
+  baseURL: "https://mini-dmart-backend-m46k.onrender.com/api",
   headers: {
     "Content-Type": "application/json",
   },
